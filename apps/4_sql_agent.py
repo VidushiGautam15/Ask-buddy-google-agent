@@ -7,7 +7,7 @@ from langchain_community.utilities import SQLDatabase
 from langchain_community.agent_toolkits import SQLDatabaseToolkit
 from langgraph.checkpoint.memory import InMemorySaver
 from langchain.agents import create_agent 
-import stramlit as st
+import streamlit as st
 
 db=SQLDatabase.from_uri("sqlite:///mytasks.db") 
 
